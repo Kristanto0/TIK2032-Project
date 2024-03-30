@@ -1,0 +1,121 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    text-transform: uppercase;
+    background-color: darkblue;
+    height: 100%;
+    width: 100%;
+}
+
+/* atur navigasi */
+.navigasi {
+    background-color:lightblue;
+    width: 100%;
+    height: 100%;
+}
+
+
+.li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 100%;
+}
+.teks-nav {
+    float: right;
+    color: black;
+    text-decoration: none;
+}
+
+/* isi */
+
+.konten{
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: none;
+    margin: 100px;
+    color: white;
+}
+
+/* atur index */
+
+.sisip{
+    text-decoration: none;
+    color: white;
+}
+.sisip:hover {
+    transition: .2s;
+    color: aquamarine;
+}
+/* atur contact */
+.con-text{
+    text-decoration: none;
+    color: white;
+}
+.con-text:hover {
+    transition: .2s;
+    color:aquamarine;
+}
+
+/* atur blog */
+.blog-tab div{
+    display: none;
+    color: white;
+  }
+  
+.blog-tab div:target{
+    display: block;
+    
+}
+.blog-nav{
+    display: block;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+.blog-nav:hover{
+    color: coral;
+}
+.blog-nav:active{
+    color: black;
+    background-color: salmon;
+    width:fit-content;
+}
+
+.panca-li{
+    list-style-type: circle;
+    text-align:justify;
+}
+.disini{
+    color: white;
+    text-decoration: none;
+}
+.disini:hover{
+    color:lightcoral;
+}
+.disini:active{
+    color: lightsalmon;
+}
+/* atur gallery */
+.gal-box{
+    margin: 5px;
+    border: 1px solid white;
+    float: left;    
+    width: 200px;
+    height: 200px;
+}
+
+.gal-a{
+    color: white;
+    text-decoration: none;
+}
+.gal-a:hover{
+    color: coral;
+}
